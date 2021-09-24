@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMenuLateral.Ubicacion">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenido a UBICACION!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="30"
+                   TextColor="GreenYellow"/>
+            <Label Text="La ubicacion de la tienda Felian es: Mz E lt18 Jose olaya" 
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="30"
+                   TextColor="GreenYellow"/>
+            <Image Source="ubicacion.jpg"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

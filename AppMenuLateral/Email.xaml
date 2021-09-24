@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMenuLateral.Email">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenido EMAIL!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor="Orange"
+                   FontSize="30"/>
+            <Label Text="Por el momento no tienes correos recibidos"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="Orange"/>
+            <Image Source="circulo.png"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMenuLateral.Home">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenido a HOME!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="30"
+                   TextColor="Coral"/>
+            <Label Text="Felian te de las gracias por ser parte de este emprendimiento"
+                   HorizontalTextAlignment="Center"
+                   Margin="15"
+                   TextColor="Black"
+                   FontSize="22"/>
+            <Image Source="Ropa.jpg"
+                   Aspect="AspectFill"
+                   Margin="20"
+                   HeightRequest="230"
+                   WidthRequest="230"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
